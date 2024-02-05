@@ -2,7 +2,7 @@ import watertap
 import waterglass
 
 water_on = watertap.WaterTap()
-fill_glass = waterglass.WaterGlass()
+fill_glass =waterglass.WaterGlass()
 tap_on = True
 
 while tap_on:
@@ -13,3 +13,4 @@ while tap_on:
     else:
         water_on.close_tap()
         tap_on = False
+        
